@@ -1,0 +1,24 @@
+@media (min-width:360px) and (max-width:640px) {
+    .Couture h3::before {
+        content: "";
+        height: 1px;
+        position: absolute;
+        width: 52px !important;
+        background: #000;
+        left: 0px;
+        top: 14px;
+    }
+    .Couture h3::after {
+        content: "";
+        height: 1px;
+        position: absolute;
+        width: 54px;
+        background: #000;
+        right: -2px;
+        top: 14px;
+    }
+    .content {
+        margin-top: 30px;
+    }
+     
+}
